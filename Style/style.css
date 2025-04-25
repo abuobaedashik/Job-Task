@@ -330,7 +330,6 @@ body{
     padding: 96px 0;
     margin: 0 auto;
     background-color: #FFFFFF;
-    border: 1px solid #E2E8F0;
 }
 .protors-details{
     display: flex;
@@ -401,3 +400,72 @@ body{
     margin-bottom: 24px;
 }
 
+
+/* testimonials section */
+
+.testimonials-section{
+    padding: 96px 0;
+    margin: 0 auto;
+    background-color: #F8FAFC;
+}
+  
+  .testmonials-total{
+        
+        margin-top: 64px;
+        width: 82%; 
+        margin: 0 auto;
+}
+.testimonils-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+    gap: 24px;
+    text-align: center;
+  }
+  .t-1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid #E2E8F0;
+  }
+  
+  .name-addrs-testimonils{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .colum-1 {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+  }
+  .colum-2 {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+  }
+  .colum-3 {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+  }
+ .total-layout-testimonials{
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    width: 82%;
+    margin: 0 auto;
+ }
+ .t-1{
+    width: 346px;
+ }
