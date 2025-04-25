@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Inter", sans-serif;
+}
 
 .total-layout{
-   border: 3px solid black;
    max-width: 1440px;
    margin: 0 auto;
 }
@@ -17,12 +19,9 @@
     padding: 10px 20px;
     background-color: #feffff;
     height: 80px;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
-.header{
-    height: 1302px;
-}
 .navabr-three-section{
     display: flex;
     justify-content: space-between;
@@ -30,19 +29,31 @@
     width: 84.44%;
     margin: 0 auto;
     padding: 16px 0 ;
-    border: 1px solid rgb(35, 35, 27);
 }
 .logo-img{
-   width: 96px;
-   margin-top:3px  ;
-    
+   width: 32px;
+   height: 32px;
+   
+}
+
+.logo-img2{
+    /* border: 1px solid red; */
+    width: 74px;
+    font-weight: bolder;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-family: "Inter", sans-serif;
 }
 .logo{
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
  .nav-list{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
     display: flex;
     gap:32px ;
     align-items: center;
@@ -57,9 +68,122 @@
     text-decoration: none;
     color: #475569;
 }
-.hero{
-    height: 1222px
-    
+
+.btn-sign-up{
+    background-color: #feffff;
+    color: #475569;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 1234px;
 }
+
+.btn-log-in{
+    background-color: #feffff;
+    color: #475569;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 1234px;
+}
+ .btn-sign-up:hover{
+    background-color:#4F46E5;
+    color: #feffff;
+    transition: 0.3s ease-in-out;
+}
+.btn-log-in:hover{
+    background-color:#4F46E5;
+    color: #feffff;
+    transition: 0.3s ease-in-out;
+}
+.navbar-buttons{
+    display: flex;
+    gap: 10px;
+}
+.hero{
+    width: 82%;
+    margin: 0 auto;
+}
+
+.full-hero{
+    background-image: url("../Accets/Hero Section/abstract-pui-73-background-wallpaper-gradient\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(to bottom, #f1f4ff, #aab8ff); */
+    width: full;
+}
+
+.top-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+}
+.design-small{
+    font-size: 14px;
+    font-weight: 600;
+    color: #4F46E5;
+    background-color: #EEF2FF;
+    border-radius: 1234px;
+    padding: 6px 12px;  
+    margin-top: 96px;                                                                                                              
+}
+
+.design-big-text{
+    font-size: 60px;
+    font-weight: 800;
+    color: #1E293B;
+    margin-top: 24px;
+    text-align: center;
+}
+.design-subtitle{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #475569;
+    text-align: center;
+}
+.hero-buttons{
+    display: flex;
+    gap:16px;
+    margin-top: 32px;
+}
+.image-section{
+    margin-top: 64px;
+}
+
+.collaborate-section{
+    padding: 64px 0;
+    margin: 0 auto;
+    background-color: #F8FAFC;
+}
+
+.collaborative-itmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 82%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.frist-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+.second-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
 
 
