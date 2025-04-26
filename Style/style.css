@@ -457,6 +457,16 @@ body{
     gap: 32px;
     flex-direction: column;
   }
+  .name{
+    color: #1E293B;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .address{
+    color: #475569;
+    font-size: 16px;
+    font-weight: 400;
+  }
  .total-layout-testimonials{
     display: flex;
     align-items: start;
@@ -469,3 +479,82 @@ body{
  .t-1{
     width: 346px;
  }
+ /* office section  */
+ .office-section{
+    padding: 96px 0;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.office-layout{
+    width: 82%;
+    margin:0 auto;
+}
+
+
+.office-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 800px;
+}
+.design-small-office{
+    font-size: 14px;
+    font-weight: 600;
+    color: #4F46E5;
+    background-color: #EEF2FF;
+    border-radius: 1234px;
+    padding: 6px 12px;
+}
+.design-big-text-office{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1E293B;
+    margin-top: 24px;
+}
+.design-subtitle-office{
+    font-size: 18px;
+    font-weight: 400;
+    color: #475569;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+.offices-location-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  
+}
+.loca-card{
+    border: 1px solid #E2E8F0;
+    padding: 24px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 24px;
+    min-width: 280px;
+}
+.loc-img{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.country{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #1E293B;
+}
+.sub-1{
+   margin-top: 8px;
+   font-size: 16px;
+   font-weight: 400;
+   color: #1E293B;
+   margin-bottom: 6px;
+}
+.sub-1{
+   font-weight: 400;
+   color: #1E293B;
+   margin-bottom: 6px;
+}
