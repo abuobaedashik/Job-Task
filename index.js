@@ -1,11 +1,9 @@
-
-
 const accordionHeaders = document.querySelectorAll('.accordion-header');
 
 accordionHeaders.forEach(header => {
   header.addEventListener('click', () => {
     const openItem = document.querySelector('.accordion-header.active');
-    
+
     if (openItem && openItem !== header) {
       openItem.classList.remove('active');
       openItem.nextElementSibling.style.maxHeight = 0;
@@ -17,15 +15,11 @@ accordionHeaders.forEach(header => {
     const icon = header.querySelector('.icon');
 
     if (header.classList.contains('active')) {
-      accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-      icon.textContent = '▲'; 
+      accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+      icon.textContent = '▲'; // open icon
     } else {
       accordionContent.style.maxHeight = 0;
-      icon.textContent = '▼'; 
+      icon.textContent = '▼'; // closed icon
     }
   });
 });
-
-
-
-

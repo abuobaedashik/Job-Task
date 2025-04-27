@@ -80,6 +80,7 @@ body{
     font-size: 16px;
     padding: 12px 20px;
     border-radius: 1234px;
+    border: 1px solid #CBD5E1;
 }
 
 .btn-log-in{
@@ -89,6 +90,8 @@ body{
     font-size: 16px;
     padding: 12px 20px;
     border-radius: 1234px;
+    border: none;
+    border: 1px solid #CBD5E1;
 }
  .btn-sign-up:hover{
     background-color:#4F46E5;
@@ -643,5 +646,116 @@ body{
  .icon{
     margin-left: 20px;
     font-size: 20px;
+    text-align:  center;
  }
-  
+ .our-app-section{
+    margin: 0 auto;
+    background-color: #EEF2FF;
+ }
+ .total-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 0 auto; 
+ }
+.btn-app-download{
+    background-color: #EEF2FF;
+    color: #475569;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 1234px;
+    border: 1px solid #CBD5E1;
+}
+.btn-app-download-2{
+    background-color: #4F46E5;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 1234px;
+    border: 1px solid #CBD5E1;
+}
+.heading-app{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1E293B;
+}
+.dtls-app-download{
+    font-size: 18px;
+    font-weight: 700;
+    color: #475569;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.our-app-layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+.img-sec-download{
+    display: flex;
+    align-items:start;
+    justify-content: end;
+    gap:34px;
+}
+.left-side{
+   width: 50%;
+   margin-left: 112px;
+}
+.right-side{
+    width: 50%;
+}
+.img-1{
+    margin-top: 64px;
+}
+/* footer */
+footer{
+    padding-top: 96px;
+    margin: 0 auto;
+    background-color: #F8FAFC;
+}
+.footer-layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 82%;
+    margin: 0 auto; 
+    padding-bottom: 42px;
+    border-bottom: 1px solid #CBD5E1;
+}
+.title-foot{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1E293B;
+    margin-bottom: 16px;
+}
+.foot-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: #475569;
+    margin-bottom: 12px;
+}
+.footer-item-1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #E2E8F0;
+    width: 176px;
+}
+.end-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 82%;
+    margin: 0 auto;
+    gap: 32px;
+    width: 82%;
+    margin: 0 auto; 
+    padding-top: 32px;
+}
