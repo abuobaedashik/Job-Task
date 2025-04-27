@@ -112,4 +112,224 @@
         padding-bottom: 64px;
         border: 1px solid green;
     }
+    .activities-heading{
+        border: 1px solid blue;
+        width: 92%;
+        margin: 0 auto;
+    }
+    .primary-active{
+        font-size: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .flex-activities-item{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-top: 64px;
+        width: 92%;
+    }
+    .activite-item{
+        border-bottom: 1px solid #E2E8F0;
+        border-right: none;
+        margin-top: 64px;
+        padding: 32px;
+    }
+    .protors-center{
+        width: 92%;
+        border: 1px solid black;
+    }
+    .protors-heading{
+        justify-content: center;
+        width: 92%;
+
+    }
+    .protors-image{
+        display: none;
+    }
+    .protors-image-small{           
+        display: flex;      
+    }
+    .protors-details{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .testimonials-section{
+        padding: 64px 0;
+        margin: 0 auto;
+    }
+    .testmonials-total{
+        margin-top: 64px;
+        width: 92%; 
+        margin: 0 auto;
+        border: 1px solid blue;
+}
+.testimonils-heading {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin: 0 auto;
+    gap: 24px;
+    text-align: center;
+  }
+.design-big-text-protors{
+    margin-top: 20px;
+}
+.design-small-testmnls{
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 1234px;
+    padding: 0 12px;
+}
+.design-subtitle-testmnls{
+    margin-top: 6px;
+    color: #475569;
+    margin-bottom: 64px;
+}
+.total-layout-testimonials{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+ }
+ .t-1{
+    width: 100%;
+ }
+ .hide-small{
+    display: none;
+ }
+ .small-load-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#4F46E5;
+    border-radius: 1234px;
+    padding: 10px 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+ }
+ .office-section{
+    padding: 64px 0;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.office-layout{
+    width: 92%;
+    margin: 0 auto;
+}
+
+
+.office-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
+.offices-location-card{
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.loca-card{
+    border: 1px solid #E2E8F0;
+    padding: 24px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 24px;
+    min-width: 100%;
+}    
+.faq-section{
+    padding: 64px 0;
+}
+.accordion {
+    width: 92%;
+    margin: 0 auto;
+    margin: 0 auto;
+    border: 1px solid blue;
+  }
+  .img-sec-download{
+    display: none;
+  }
+  .accordion-header.active + .accordion-content {
+    max-height: 92px; 
+    margin: 0 auto;
+    border: 1px solid blue;
+  }
+  .total-app{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto; 
+    border: 1px solid blue;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+ }
+ .left-side{
+    width: 92%;
+    margin-left: 0;
+    margin: 0 auto;
+    border: 1px solid black;
+ }
+ .right-side{
+    width: 92%;
+    margin-left: 0;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px 0;
+}
+.heading-app{
+    font-size: 30px;
+}
+.img-section-small-app{
+    margin-top: 32px;
+    padding: 24px 0;
+    
+}
+footer{
+    padding-top: 96px;
+    margin: 0 auto;
+    background-color: #F8FAFC;
+}
+.footer-layout{
+    display: flex;
+    align-items: start;
+    border: 1px solid blue;
+    flex-direction: column;
+    gap: 16px;
+    width: 92%;
+    margin: 0 auto; 
+    padding-bottom: 42px;
+    border-bottom: 1px solid #CBD5E1;
+}
+.end-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    margin: 0 auto;
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    border: 1px solid blue;
+    flex-direction: column;
+}
 }

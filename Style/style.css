@@ -57,6 +57,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 6px;
 }
  .nav-list{
     font-size: 16px;
@@ -368,6 +369,9 @@ body{
     justify-content: center;
     width: 640px;
 }
+.protors-image-small{           
+    display: none;      
+}
 .design-big-text-protors{
     font-size: 36px;
     font-weight: 800;
@@ -511,6 +515,9 @@ body{
  .t-1{
     width: 346px;
  }
+ .small-load-more{
+   display: none;
+ }
  /* office section  */
  .office-section{
     padding: 96px 0;
@@ -556,7 +563,6 @@ body{
     justify-content: center;
     align-items: center;
     gap: 32px;
-  
 }
 .loca-card{
     border: 1px solid #E2E8F0;
@@ -709,6 +715,9 @@ body{
     align-items:start;
     justify-content: end;
     gap:34px;
+}
+.img-section-small-app{
+    display: none;
 }
 .left-side{
    width: 50%;
