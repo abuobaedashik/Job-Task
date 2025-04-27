@@ -12,6 +12,7 @@ body{
 .total-layout{
    max-width: 1440px;
    margin: 0 auto;
+   border: 1px solid red;
 }
 
 /* navbar section */
@@ -558,9 +559,8 @@ body{
     margin-bottom: 64px;
 }
 .offices-location-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 32px;
 }
 .loca-card{
