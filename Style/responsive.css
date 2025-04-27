@@ -1,0 +1,115 @@
+
+/* small device for phone  */
+@media screen and (max-width: 640px) {
+    .total-layout{
+        max-width: 640px;
+    }
+    .navbar{
+       border: 1px solid blueviolet;
+       width: full;
+       padding: 0 ;
+    }
+    .navabr-three-section-two{
+        display:none;
+    }
+ .navbar-buttons{
+    display:none;
+ }
+ .menu-icon{
+        display: inline-block;
+    }
+    .top-text{
+        margin-top: 64px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 64px;
+        border: 1px solid blue;
+    }
+    .design-big-text{
+        font-size: 2rem;
+    }
+    .hero{
+        width: 92%;
+        margin: 0 auto;
+    }
+    .navabr-three-section{
+        width: 92%;
+        margin: 0 auto;
+        padding: 16px 0 ;
+        border: 1px solid red;
+    }
+    .image-section{
+        display: none;
+    }
+    .image-section-small{
+        display:flex;
+        border: 1px solid green;
+    }
+    .image-section-small{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+        margin: 0 5px;
+    }
+    .collaborate-section{
+        border: 1px solid blue;
+    }
+    .frist-row{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        border: 1px solid black;
+    }
+    .collaborative-itmes{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        width: 92%;
+        margin: 0 auto;
+    }
+    .second-row{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 12px 32px;
+    }
+    .frist-row > div > img{
+        width: 96px; 
+        height: 64px;
+    }
+    .second-row > div > img{
+        width: 96px; 
+        height: 64px;
+    }
+    .feature-heading{
+        display: flex;
+        flex-direction: column;
+        margin-top: 64px;
+        width: 92%;
+        margin: 0 auto;
+        border: 1px solid blue;
+    }
+    .feature-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .features{
+        grid-template-columns: repeat(1, 1fr);
+        gap:32px;
+        width: 92%; 
+        margin: 0 auto;
+        margin-top: 48px;
+        padding-bottom: 64px;
+        border: 1px solid green;
+    }
+}
