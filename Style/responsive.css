@@ -5,7 +5,7 @@
         max-width: 640px;
     }
     .navbar{
-       border: 1px solid blueviolet;
+      
        width: full;
        padding: 0 ;
     }
@@ -25,7 +25,7 @@
         width: 100%;
         margin: 0 auto;
         margin-bottom: 64px;
-        border: 1px solid blue;
+        
     }
     .design-big-text{
         font-size: 2rem;
@@ -38,14 +38,14 @@
         width: 92%;
         margin: 0 auto;
         padding: 16px 0 ;
-        border: 1px solid red;
+        
     }
     .image-section{
         display: none;
     }
     .image-section-small{
         display:flex;
-        border: 1px solid green;
+        
     }
     .image-section-small{
         display: flex;
@@ -56,7 +56,7 @@
         margin: 0 5px;
     }
     .collaborate-section{
-        border: 1px solid blue;
+       
     }
     .frist-row{
         display: grid;
@@ -64,7 +64,7 @@
         align-items: center;
         justify-content: center;
         gap: 0;
-        border: 1px solid black;
+        
     }
     .collaborative-itmes{
         display: block;
@@ -95,7 +95,7 @@
         margin-top: 64px;
         width: 92%;
         margin: 0 auto;
-        border: 1px solid blue;
+       
     }
     .feature-item{
         display: flex;
@@ -110,10 +110,10 @@
         margin: 0 auto;
         margin-top: 48px;
         padding-bottom: 64px;
-        border: 1px solid green;
+        
     }
     .activities-heading{
-        border: 1px solid blue;
+        
         width: 92%;
         margin: 0 auto;
     }
@@ -137,7 +137,7 @@
     }
     .protors-center{
         width: 92%;
-        border: 1px solid black;
+        
     }
     .protors-heading{
         justify-content: center;
@@ -165,7 +165,7 @@
         margin-top: 64px;
         width: 92%; 
         margin: 0 auto;
-        border: 1px solid blue;
+       
 }
 .testimonils-heading {
     display: flex;
@@ -197,7 +197,6 @@
     gap: 32px;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid black;
  }
  .t-1{
     width: 100%;
@@ -237,7 +236,7 @@
     justify-content: start;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid blue;
+   
 }
 .offices-location-card{
     flex-direction: column;
@@ -247,7 +246,6 @@
     margin-top: 50px;
 }
 .loca-card{
-    border: 1px solid #E2E8F0;
     padding: 24px;
     display: flex;
     align-items: start;
@@ -263,7 +261,6 @@
     width: 92%;
     margin: 0 auto;
     margin: 0 auto;
-    border: 1px solid blue;
   }
   .img-sec-download{
     display: none;
@@ -271,14 +268,12 @@
   .accordion-header.active + .accordion-content {
     max-height: 92px; 
     margin: 0 auto;
-    border: 1px solid blue;
   }
   .total-app{
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin: 0 auto; 
-    border: 1px solid blue;
     align-items: center;
     justify-content: center;
     height: auto;
@@ -287,13 +282,11 @@
     width: 92%;
     margin-left: 0;
     margin: 0 auto;
-    border: 1px solid black;
  }
  .right-side{
     width: 92%;
     margin-left: 0;
     margin: 0 auto;
-    border: 1px solid black;
     padding: 20px 0;
 }
 .heading-app{
@@ -312,7 +305,6 @@ footer{
 .footer-layout{
     display: flex;
     align-items: start;
-    border: 1px solid blue;
     flex-direction: column;
     gap: 16px;
     width: 92%;
@@ -329,7 +321,6 @@ footer{
     gap: 16px;
     padding-top: 32px;
     padding-bottom: 64px;
-    border: 1px solid blue;
     flex-direction: column;
 }
 }
